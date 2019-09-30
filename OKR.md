@@ -158,10 +158,8 @@
 ## OKR管理心经知识光甲图
 ![OKR管理心经知识框架图](img/577a0c389be73e494af24a04732fe9a7.png)
 ## 告别无意义会议，会议6要点
-https://time.geekbang.org/column/article/127199
 ![会议6要点](img/20190926110658.png)
 ## OKR的十个坑！！！
-https://time.geekbang.org/column/article/128058
 ## 如何灵活应用OKR
 ![如何灵活应用OKR](img/122c331d312c883731b03a38f5d8951c.png)
 ## 如何评判一个OKR是否完备
